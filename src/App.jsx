@@ -22,9 +22,10 @@ function App() {
 
   const handleInputData = e => {
     setNewPost({
-      ...post,
+      ...newPost,
       [e.target.name]: e.target.value,
     })
+
   }
 
   return (
